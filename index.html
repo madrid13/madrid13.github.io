@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CV Maxime Madrid</title>
+        <meta charset="UTF-8">
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <script src="assets/jquery/jquery-3.0.0.js" type="text/javascript"></script>
+        <script src="jquery-ui-1.11.4.custom/jquery-ui.min.js" type="text/javascript"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row test">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 borduretest home1">
+                    <div class="row">
+                        <img class="photo" src="assets/images/maxime.jpg"/>
+                        <h1 class="titre1">MAXIME MADRID</h1>
+                    </div>
+
+                    <div class="row iconperso">
+                        <img src="assets/images/house.png" alt=""/>
+                        <img src="assets/images/mail-128.png" alt=""/>
+                        <img src="assets/images/facebook.png" alt=""/>
+                        <img src="assets/images/twitter.png" alt=""/>
+                        <img src="assets/images/google_plus-128.png" alt=""/>
+                        <img src="assets/images/skype-128.png" alt=""/>
+                    </div>
+
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 borduretest1 home2">
+
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 borduretest2 misenforme">
+                            <h2 class="titre2">DEVELOPPEUR WEB JUNIOR</h2>
+                            <p class="chapo">Mon parcours, complété par ma passion pour internet et l'informatique, m'a permis d'acquérir les connaissances techniques et pratiques indispensables à l'exercice de ce métier. Maîtrisant différents langages informatiques (PHP, JavaScript, HTML…), je désire confirmer mes compétences en création et développement de sites web au sein de votre entreprise. Ma forte motivation, ma capacité d'adaptation et mon potentiel sont d'autres atouts qui seront bénéfiques au développement de votre entreprise.  </p>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 borduretest3">
+                            <div class="row iconpro">
+                                <p class="titre comp">COMPETENCES PRO.</p>
+                                <img src="assets/images/terminal.png" alt="image terminal" id="img_ter"  onclick="move()"/>
+                                <img src="assets/images/html5-128.png" alt="image html" id="img_html" onclick="move()"/>
+                                <img src="assets/images/social_style_3_css3-128.png" alt="image ccs" id="img_css"/>
+                                <img src="assets/images/jquery-128.png" alt="image jquery" id="img_jq"/>
+                                <img src="assets/images/boostrap-128.png" alt="image boostrap" id="img_boos"/>
+                                <img src="assets/images/github-128.png" alt="image github" id="img_git"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-offset-2 col-md-10  progression">
+
+                            <div id="text_ter" class="cacher">
+                                <h4 class="competance">Terminal</h4>
+                                <div id="myProgress">
+                                    <div id="myBar" ><p class="position_niveau">22%</p></div>
+                                </div>
+                                <br>
+
+                            </div>
+
+                            <div id="text_html" class="cacher">
+                                <h4 class="competance">html5</h4>
+                                <div id="myProgress">
+                                    <div id="myBar" ><p class="position_niveau">22%</p></div>
+                                </div>
+                                <br>
+
+                            </div>
+                        </div>
+                    </div>
+                    <script>
+                        $("#img_ter").click(function () {
+                            $("#text_ter").toggle();
+                            $("#myBar").movetest();
+                        });
+
+                        function movetest() {
+                            var elem = document.getElementById("myBar");
+                            var width = 1;
+                            var id = setInterval(frame, 40);
+                            function frame() {
+                                if (width >= 20) {
+                                    clearInterval(id);
+                                } else {
+                                    width++;
+                                    elem.style.width = width + '%';
+                                }
+                            }
+                        }
+                    </script>
+
+
+
+                        </div>
+                    </div>
+
+
+                    <script>
+                        $("#img_html").click(function () {
+                            $("#text_html").toggle();
+                        });
+                    </script>
+                    <div id="text_css" class="cacher">le css c trop genial
+                    </div>
+                    <script>
+                        $("#img_css").click(function () {
+                            $("#text_css").toggle();
+                        });
+                    </script>
+                    <div id="text_jq" class="cacher">le jq c trop genial
+                    </div>
+                    <script>
+                        $("#img_jq").click(function () {
+                            $("#text_jq").toggle();
+                        });
+                    </script>
+                    <div id="text_boos" class="cacher">le boostrap c trop genial
+                    </div>
+                    <script>
+                        $("#img_boos").click(function () {
+                            $("#text_boos").toggle();
+                        });
+                    </script>
+                    <div id="text_git" class="cacher">le github c trop genial
+                    </div>
+                    <script>
+                        $("#img_git").click(function () {
+                            $("#text_git").toggle();
+                        });
+                    </script>
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

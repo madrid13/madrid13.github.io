@@ -1,0 +1,137 @@
+
+.photo{
+    border-radius: 15px;
+    border: 5px solid #EDEDED;
+    box-shadow: 6px 6px 18px black;
+    margin-top: 10px;
+}
+.borduretest2{
+
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.borduretest3{
+
+    height: 200px;
+    text-align: center;
+}
+
+.borduretest4{
+
+    height: 274px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.home2{
+    background-image: url(assets/images/noir3.jpeg);
+    height : 800px;
+}
+h1{
+    margin: 60px 0 50px 0;
+
+}
+.iconpro img{
+  background: #EDEDED;
+  border: 5 px solid #EDEDED;
+  padding: 4px;
+  margin-top: 30px;
+}
+
+.iconperso img{
+  background: #1C1C1C;
+  border: 5px solid #1C1C1C ;
+  margin-top: 4px;
+}
+
+.responsive{
+    background: #FFFFFF;
+    opacity: 0.9;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+
+.home1{
+    background-color: #727272;
+    text-align: center;
+    height: 800px;
+}
+
+.titre1{
+     color: #EDEDED;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px black;
+    font-size: 40px;
+}
+
+.titre2{
+    color: #EDEDED;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px black;
+    font-size: 50px;
+}
+
+.comp{
+    margin-top: 50px;
+    font-size: 20px;
+     color: #EDEDED;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px black;
+    font-size: 25px;
+}
+
+.chapo{
+    color: #EDEDED;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+img.icone{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+
+}
+
+.cacher{
+   display: none;
+}
+
+/*progress bar début */
+#myProgress {
+  position: relative;
+  width: 80%;
+  height: 40px;
+  background-color: #ddd;
+  text-align: center;
+}
+
+#myBar {
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  background-color: #DE4C40;
+  text-align: center;
+}
+
+.position_niveau{
+    margin-top: 10px;
+}
+.competance{
+ color: #EDEDED;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px black;
+}
+.progression{
+    margin-top: 100px;
+}
+/*p
+rogress bar FIN */
